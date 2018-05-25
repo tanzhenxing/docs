@@ -88,7 +88,7 @@ $app->broadcasting->previewText($text, $openId);
 $app->broadcasting->previewNews($mediaId, $openId);
 $app->broadcasting->previewVoice($mediaId, $openId);
 $app->broadcasting->previewImage($mediaId, $openId);
-$app->broadcasting->previewVideo($message, $openId);
+$app->broadcasting->previewVideo($mediaId, $openId);
 $app->broadcasting->previewCard($cardId, $openId);
 ```
 
@@ -101,7 +101,7 @@ $app->broadcasting->previewTextByName($text, $wxname);
 $app->broadcasting->previewNewsByName($mediaId, $wxname);
 $app->broadcasting->previewVoiceByName($mediaId, $wxname);
 $app->broadcasting->previewImageByName($mediaId, $wxname);
-$app->broadcasting->previewVideoByName($message, $wxname);
+$app->broadcasting->previewVideoByName($mediaId, $wxname);
 $app->broadcasting->previewCardByName($cardId, $wxname);
 ```
 
